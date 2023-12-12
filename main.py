@@ -1,7 +1,7 @@
 class TrieNode:
     def __init__(self):
         self.children = {}  # a: TrieNode
-        self.endOfWord = False
+        self.word = False
 
 
 class WordDictionary:
